@@ -13,3 +13,4 @@ jobs:
 
     - name: Simular Deploy
       run: echo "Iniciando deploy da API de Gestão de Documentos..."
+      # ativando os testes
