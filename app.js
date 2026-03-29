@@ -11,3 +11,9 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
+
+app.get('/contatos', (req, res) => {
+  res.json([
+    { id: 1, nome: "Leo", cargo: "Administrador" }
+  ]);
+});
