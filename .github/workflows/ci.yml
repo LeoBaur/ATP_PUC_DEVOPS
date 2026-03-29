@@ -18,3 +18,4 @@ jobs:
 
     - name: Instalar dependências
       run: npm install
+      # ativando os testes
